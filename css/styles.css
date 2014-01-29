@@ -8,21 +8,23 @@
   width: 300px;
   border: 4px solid white;
   border-radius: 5px;
-
+  font-family: 'Alef', sans-serif;
   font-size: 20px;
   color: white;
 }
 
 body{
-
+font-family: 'Alef', sans-serif;
 	background-color: #779283;
  
 }
 h1{
 	color: #4C4C4A;
   font-size: 100px;
+  font-family: 'Alef', sans-serif;
 }
 
 a {
 	color: #F3D8B5;
+	font-family: 'Alef', sans-serif;
 }
