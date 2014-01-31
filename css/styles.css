@@ -3,6 +3,27 @@
 
 /* Show Grid */
 
+
+
+
+
+
+
+
+/* Whole Page*/
+body{
+  
+  font-family: 'Alef', sans-serif;
+  background-color: #779283;
+
+}
+
+
+
+
+
+
+/*"Emily Nachbar" and "VCD"*/
 .name{
   position: relative;
   margin-bottom: 40px;
@@ -34,12 +55,16 @@ h3 {
 
 
 
+
+/*Content*/
+
 .content {
   position: relative;
   background-color: #4C4C4A
 }
 
 
+/*img*/
 
 img {
 
@@ -50,10 +75,7 @@ img {
 
 }
 
-
-
-
-
+/*text next to img*/
 
 .VCD {
   text-align: left;
@@ -74,12 +96,29 @@ img {
   
 }
 
-body{
-font-family: 'Alef', sans-serif;
-	background-color: #779283;
- 
-}
 
+
+.pro {
+  text-align: left;
+  background-color: black;
+  margin: 0;
+  height: 240px;
+  width: 720px;
+  padding: 20px;
+  font-size: 21px;
+  color: white;
+  font-family: 'Alef', sans-serif;
+  display: block;
+  float:right;
+  position: relative;
+  top:40px;
+  right:120px;
+  }
+
+
+ 
+
+/*links*/
 
 a {
 	color: #F3D8B5;
