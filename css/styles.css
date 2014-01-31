@@ -60,7 +60,8 @@ h3 {
 
 .content {
   position: relative;
-  background-color: #4C4C4A
+  background-color: #4C4C4A;
+  height: 680px;
 }
 
 
@@ -69,6 +70,7 @@ h3 {
 img {
 
   position:relative;
+  box-shadow: 8px 8px 20px #4C4C4A;
   top:40px;
   left:120px;
   
@@ -84,6 +86,7 @@ img {
   height: 240px;
   width: 460px;
   padding: 20px;
+  box-shadow: 8px 8px 20px #4C4C4A;
   font-size: 21px;
   color: white;
   font-family: 'Alef', sans-serif;
@@ -102,9 +105,10 @@ img {
   text-align: left;
   background-color: black;
   margin: 0;
-  height: 240px;
+  height: 280px;
   width: 720px;
   padding: 20px;
+  box-shadow: 8px 8px 20px #4C4C4A;
   font-size: 21px;
   color: white;
   font-family: 'Alef', sans-serif;
@@ -115,12 +119,22 @@ img {
   right:120px;
   }
 
-
+p {
+  padding-bottom: 20px;
+}
  
 
 /*links*/
 
 a {
 	color: #F3D8B5;
-	font-family: 'Alef', sans-serif;
+  postion: relative;
+
+  padding: 70px;
+  text-decoration: none;
+  
+}
+
+a:hover{
+  color: white;
 }
