@@ -1,140 +1,129 @@
-/* Your Website Styles */
 
 
-/* Show Grid */
-
-
-
-
-
-
-
-
-/* Whole Page*/
 body{
   
   font-family: 'Alef', sans-serif;
   background-color: #779283;
-
 }
 
-
-
-
-
-
-/*"Emily Nachbar" and "VCD"*/
-.name{
-  position: relative;
-  margin-bottom: 40px;
-  
-}
+/*HEADER*/
 
 h1{
   color: #4C4C4A;
   font-size: 100px;
   font-family: 'Alef', sans-serif;
-  margin-bottom: -80px;
-  padding-left: 10px;
-
-
-
+  margin-bottom: -70px;
 }
 
-h3 {
+header h3 {
     font-size: 20px; 
     font-family: 'Alef', sans-serif;
-    margin-top: 10px;
+    margin-bottom:20px;
+
     position: relative;
-    top:10px;
+    top:-15px;
     left:680px;
-    
-    
+
 }
 
+/*image and VCD*/
 
-
-
-
-/*Content*/
-
-.content {
+article {
+  border-radius: 10px;
+  background-color: black;
+  height:330px;
   position: relative;
-  background-color: #4C4C4A;
-  height: 680px;
+
+
 }
-
-
-/*img*/
 
 img {
-
-  position:relative;
-  box-shadow: 8px 8px 20px #4C4C4A;
-  top:40px;
-  left:120px;
+  position: relative;
+  margin: 20px 20px 20px 40px;
+  border: #4C4C4A solid 5px;
+  border-radius:10px;
   
-
 }
 
-/*text next to img*/
-
-.VCD {
+.VCD{
   text-align: left;
-  background-color: black;
-  margin: 0;
+  vertical-align: center;
+  position: relative;
+  margin: 30px 40px 40px 30px;
   height: 240px;
-  width: 460px;
-  padding: 20px;
-  box-shadow: 8px 8px 20px #4C4C4A;
-  font-size: 21px;
+  width:600px;
+  padding: 20px 20px 20px 20px;
+  font-size: 23px;
   color: white;
   font-family: 'Alef', sans-serif;
-  display: block;
-  float:right;
-  position: relative;
-  top:40px;
-  right:120px;
+  
   
   
 }
 
 
+/*footer*/
 
-.pro {
-  text-align: left;
+footer {
   background-color: black;
-  margin: 0;
-  height: 280px;
-  width: 720px;
+  height:280px;
+  position: relative;
+  border-radius: 10px;
+
+}
+
+footer h3{
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  color: #4C4C4A ;
+  background-color: white;
+  border: #4C4C4A solid 5px;
+  border-radius: 10px;
+  font-family: 'Alef', sans-serif;
+  float:right;
+  position: relative;
+  
+}
+ footer p {
+  text-align: left;
+  margin: 0px 40px 40px 40px;
+  
   padding: 20px;
-  box-shadow: 8px 8px 20px #4C4C4A;
   font-size: 21px;
   color: white;
   font-family: 'Alef', sans-serif;
   display: block;
   float:right;
   position: relative;
-  top:40px;
-  right:120px;
-  }
+  
 
-p {
-  padding-bottom: 20px;
 }
- 
+
+
 
 /*links*/
 
-a {
-	color: #F3D8B5;
-  postion: relative;
-
-  padding: 75px;
-  text-decoration: none;
-  
+nav {
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
 }
 
-a:hover{
-  color: white;
+a {
+  color: #F3D8B5;
+  position: relative;
+  font-size: 20px;
+  display:inline-block;
+  margin: 10px;
+  padding: 4px 4px 4px 4px;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  
+ 
+ }
+
+  a:hover{
+  color: #4C4C4A;
 }
